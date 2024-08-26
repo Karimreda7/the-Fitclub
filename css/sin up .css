@@ -1,0 +1,41 @@
+.Sinupsit{
+    background-image: url(../img/53ada4ef7eae03d38157042cd5c24f66.jpg);
+    background-size:  cover;
+    background-position: center center;
+    height: 95vh;
+}
+.sinup1{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0; 
+    color: aliceblue;  
+}
+.sinup2  h2::after{
+    content: "/";
+    animation-name: community ;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes community{
+   0% {content: "/";}
+   5% {content: "c/";}
+   10% {content: "co/";}
+  15%  {content: "com/";} 
+  20%  {content: "comm/";}
+  25%  {content: "commu/";}
+   30% {content: "commun/";}
+   35% {content: "communi/";}
+   40% {content: "communit/";}
+  30%  {content: "community/";}
+  35% {content: "communit/";}
+  40% {content: "communi/";}
+  45% {content: "commun/";}
+    50% {content: "commu/";}
+   60% {content: "comm/";}
+  70%  {content: "com/";}
+    80%{content: "co/";}
+    90%{content: "c/";}
+    100%{content: "/";}
+}
